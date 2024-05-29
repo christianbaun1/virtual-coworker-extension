@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Virtual Coworker</title>
+  <link rel="stylesheet" href="css/popup.css">
+  <style>
+    body {
+      width: 300px; /* Set the width of the popup */
+    }
+  </style>
+</head>
+<body>
+  <h1>Virtual Coworker</h1>
+  <div class="coworker-select-container">
+    <label for="coworker-select">Choose your coworker:</label>
+    <select id="coworker-select">
+      <option value="christian">Champion Christian</option>
+      <option value="valentina">Virtuous Valentina</option>
+      <option value="patrick">Playful Patrick</option>
+    </select>
+  </div>
+  <div class="button-container">
+    <button id="set-coworker">Get New Message</button>
+  </div>
+  <div id="coworker-message"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
